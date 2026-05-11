@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-v4-project",
+  "version": "1.0.0",
+  "description": "A simple Tailwind CSS v4 project",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "keywords": ["tailwind", "css"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^4.0.0"
+  }
+}
